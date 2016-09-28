@@ -8,7 +8,7 @@ Reminders can be marked complete under the Top tab. Top reminders are displayed 
 
 ## Guided Walkthrough
 
-<img src='' title='MonkeyReminders Guided Walkthrough' width='' alt='MonkeyReminders Guided Walkthrough' />
+<img src='https://github.com/chawang/MonkeyReminders/blob/master/MonkeyReminders.gif' title='MonkeyReminders Guided Walkthrough' width='' alt='MonkeyReminders Guided Walkthrough' />
 
 GIF created with [Ezgif](http://ezgif.com/) and [Quicktime](http://www.quicktime-download.info/)
 
