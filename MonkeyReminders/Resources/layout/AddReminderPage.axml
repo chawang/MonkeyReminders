@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base700">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:background="@color/base700"
+            layout="@layout/Toolbar" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin">
+            <EditText
+                android:id="@+id/editTextTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin">
+            <EditText
+                android:id="@+id/editTextDetails"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Details" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/priority"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <Spinner
+                android:id="@+id/prioritySpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:prompt="@string/priority" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/saveReminder"
+            android:background="@drawable/blueButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fab_margin"
+            android:text="Save"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

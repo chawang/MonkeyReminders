@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardviewAllReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:elevation="100dp"
+        card_view:cardCornerRadius="6dp">
+        <LinearLayout
+            android:id="@+id/allReminderRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/reminderTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:text="TITLE" />
+            <TextView
+                android:id="@+id/reminderDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:maxLines="5"
+                android:text="Details" />
+        <!--<LinearLayout android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="horizontal">
+				<TextView android:id="@+id/reminderCreated"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:text="Created Time" />
+				<TextView android:id="@+id/reminderFinished"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:layout_marginRight="5dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:text="Finished Time" />
+			</LinearLayout>-->
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
